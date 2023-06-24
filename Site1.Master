@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SistemDeVot_WebAppl.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Sistem de vot</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style2 {
+            display: block;
+            width: 241px;
+            height: 57px;
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+        }
+    </style>
+ 
+</head>
+
+<body>
+    <header id="header">
+        <h1>Digital Democracy</h1>
+    </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="Login.aspx"></a></li>
+                    <li><a href="Candidati.aspx"></a></li>
+                    <li><a href="CreareCont.aspx"></a></li>
+                </ul>
+       </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <footer id="footer">
+        <p>&copy; 2023 Voting System</p>
+    </footer>
+</body>
+</html>

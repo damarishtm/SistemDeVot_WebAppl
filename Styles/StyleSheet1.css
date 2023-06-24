@@ -1,0 +1,83 @@
+﻿/*Acesta definește stilul pentru secțiunea de antet a paginii.
+    Atributele color, text-align și font-size definesc culoarea textului,
+    alinierea textului și dimensiunea fontului pentru textul din antet.
+*/
+#header {
+    color: #247BA0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Acesta definește stilul pentru meniul de navigare de pe pagină
+ padding adaugă un spațiu de 5px în jurul meniului.
+*/
+#nav {
+    background-color: #247BA0;
+    padding: 5px;
+}
+
+/*Această linie elimină stilul implicit pentru lista neordonată (ul) care urmează în codul HTML
+    și elimină marcarea punctată a elementelor din listă.*/
+ul {
+    list-style-type: none;
+}
+
+/*definește stilul pentru link-urile din meniul de navigare (a) care sunt incluse în elemente de listă (li).*/
+/*Atributele color și font-size definesc culoarea și dimensiunea fontului pentru textul din link-uri.
+    Atributul column-width specifică lățimea coloanelor pentru afișarea elementelor într-un mod multi-colonă.*/
+li a {
+    color: #F1FAEE;
+    font-size: 30px;
+    column-width: 5%;
+}
+
+/*Această linie definește stilul pentru elementele de listă (li) din meniu. */
+/*Atributul display setează elementele să fie afișate pe o singură linie orizontală. */
+/*Atributul padding-left specifică spațiul între elementele de listă,*/
+/*atributul column-width definește lățimea coloanelor pentru afișarea elementelor într-un mod multi-coloană.*/
+li {
+    display: inline;
+    padding-left: 2px;
+    column-width: 20px;
+}
+
+/*Acesta definește stilul implicit pentru toate link-urile de pe pagină.*/
+/*Atributul text-decoration elimină sublinierea link-urilor*/
+/*atributul margin-left adaugă un spațiu de 20px între link-uri.*/
+a {
+    text-decoration: none;
+    margin-left: 20px
+}
+
+/*Acesta definește stilul pentru link-urile din meniul de navigare (a) când utilizatorul plasează cursorul deasupra lor.
+    Atributul background-color specifică culoarea de fundal pentru link-ul activat (hovered), 
+    color definește culoarea textului, 
+    iar padding adaugă un spațiu de 1% în jurul link-ului.
+*/
+li a:hover {
+    background-color: #F3FFBD;
+    color: #FF1654;
+    padding: 1%;
+}
+
+/*definește stilul pentru secțiunea de subsol a paginii (footer). 
+    Atributul background-color specifică culoarea de fundal pentru subsol,
+    text-align definește alinierea textului în centrul subsolului,
+    padding-bottom adaugă un spațiu de 5% între subsol și conținutul de pe pagină, 
+    iar font-size definește dimensiunea fontului pentru textul din subsol.*/
+#footer {
+    background-color: #247BA0;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+
+/*Acesta definește stilul pentru un element cu ID-ul con.
+    Atributul border adaugă o bordură dublă în jurul elementului,
+    iar border-color definește culoarea bordurii. În acest caz, culoarea este burlywood.*/
+#con {
+    border: double;
+    border-color: burlywood;
+}
+
